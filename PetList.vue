@@ -1,6 +1,7 @@
 <template>
   <div class="pet-card mb-3 p-2 border rounded">
-    <h6>{{ merged.display.name }}</h6>
+    <h6>{{ merged.display.name }} <span v-if="merged.favorite" class="text-warning">(favorite)</span>
+</h6> 
 
     <button class="btn btn-sm btn-info mb-2" @click="toggleDetails()">
       {{ detailsAreVisible ? 'Hide' : 'Show' }} Details
