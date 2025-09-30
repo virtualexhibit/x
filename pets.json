@@ -1,0 +1,28 @@
+[
+  {
+    "component": "PetList",
+    "id": 1,
+    "display": {
+      "name": "Fluffy",
+      "age": 2,
+      "breed": "Golden Retriever",
+      "gender": "Female",
+      "petType": "Dog",
+      "vaccines": ["Rabies", "Parvo"]
+    },
+    "favorite": false
+  },
+  {
+    "component": "PetList",
+    "id": 2,
+    "display": {
+      "name": "Mittens",
+      "age": 3,
+      "breed": "Persian",
+      "gender": "Male",
+      "petType": "Cat",
+      "vaccines": ["Feline Distemper"]
+    },
+    "favorite": true
+  }
+]
