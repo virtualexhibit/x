@@ -12,12 +12,18 @@ const PetFolioRecipe = {
       display: { text: "Pet List" },
       on: { action: "petList" } 
     },
+    {
+      component: "AddButton",
+      directives: { class: "btn-secondary mt-3" },
+      display: { text: "📖 User Manual" },
+      on: { action: "openManual" }  // bagong action
+    }
   ],
 
   petListButtons: [
     {
       component: "AddButton",
-      directives: { class: "btn-warning btn-sm mt-2" },
+      directives: { class: "btn-success btn-sm mt-2" },
       display: { text: "★ Favorite" },
       on: { action: "favorite" }
     },
@@ -29,7 +35,9 @@ const PetFolioRecipe = {
     }
   ],
 
-  pets: []
+  pets: [
+  ]
+  
 }
 
 export { PetFolioRecipe }
